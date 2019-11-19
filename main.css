@@ -1,0 +1,85 @@
+body {
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-sizing: border-box;
+  font-size: 1.2em;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #402c4e;
+  padding: 14px;
+}
+.nav a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo {
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+.bio {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+.bio__info h1 {
+  font-size: 1.5em;
+}
+.intro-p {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.heading__name {
+  font-size: 2em;
+}
+
+.committee__title {
+  font-size: 25px;
+}
+.head__item {
+  position: relative;
+  border: 1px;
+  padding: 1em;
+  margin: auto;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+.list__item {
+  text-align: center;
+  padding: 0.5em;
+  line-height: 2em;
+}
+.footer {
+  display: flex;
+  flex-basis: 16%;
+  border: 1px;
+  padding: 1em;
+  margin: auto;
+  text-align: center;
+  justify-content: space-evenly;
+}
