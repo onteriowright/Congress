@@ -22,8 +22,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #402c4e;
   padding: 14px;
+}
+.bio__committee {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.img-size {
+  width: 280px;
 }
 .nav a {
   padding: 10px;
@@ -73,6 +80,10 @@ li {
   text-align: center;
   padding: 0.5em;
   line-height: 2em;
+  border: 1px dotted;
+  width: 40%;
+  text-align: center;
+  margin: auto;
 }
 .footer {
   display: flex;
